@@ -10,9 +10,9 @@
         }else{
             xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
         }
-        xmlhttp.open("POST","",true)
+        xmlhttp.open("POST","Demo_test.sayHello",true)
         xmlhttp.send();
-
+        alert("xianshi:" + xmlhttp.responseText)
     </script>
 </head>
 <body>
